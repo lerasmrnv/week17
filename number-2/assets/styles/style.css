@@ -1,0 +1,66 @@
+.page {
+    margin-top: 5vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #2e808d;
+    width: 70vw;
+    height: 50%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+.messages {
+    width: 80%;
+    height: 30%;
+    margin: 20px auto;
+
+    border: 2px solid #2e808d;
+}
+
+.enter {
+    background-color: #2e808d;
+    width: 100%;
+    height: 30%;
+}
+
+.title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 100%;
+
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.title-text {
+    padding-left: 15px;
+}
+
+
+.comment-sender {
+    margin: 5px 0;
+    width: 80%;
+    height: 30%;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn {
+    max-width: 200px;
+
+    padding: 15px 32px;
+    border: none;
+    margin: 10px auto;
+
+    background-color: #0e282c;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+}
